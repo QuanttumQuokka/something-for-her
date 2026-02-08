@@ -1,0 +1,29 @@
+.container {
+  height: 100vh;
+  background: #ffeef3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 4rem;
+  color: #ff4d6d;
+}
+
+.text {
+  font-size: 1.4rem;
+  color: #ff6f91;
+  margin: 20px 0 40px;
+}
+
+.btn {
+  padding: 18px 40px;
+  border-radius: 40px;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background: linear-gradient(135deg, #ff5f7e, #ff85a1);
+  color: white;
+}
