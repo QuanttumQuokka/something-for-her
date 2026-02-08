@@ -1,0 +1,27 @@
+.container { height: 100vh; background: radial-gradient(circle at top, #1a1a1a, #000);
+     display: flex; 
+     flex-direction: column; 
+     align-items: center; 
+     justify-content: center; 
+     position: relative;
+      z-index: 2;
+       text-align: center;
+     } .valentine { font-size: 2.6rem; 
+        color: #ff4d6d;
+         margin-bottom: 10px; 
+        } .noteTitle { font-size: 1.8rem;
+             color: white; 
+             font-family: cursive;
+              margin-bottom: 30px;
+             } /* LETTER CLOSED */ .letter { width: 320px; 
+                border-radius: 18px; 
+                background: linear-gradient(180deg, #ff9fc3, #ffd6e5); 
+                box-shadow: 0 20px 40px rgba(0,0,0,0.4); cursor: pointer;
+                 overflow: hidden;
+                 } .letterTop { height: 50px; 
+                    background: #ff85b3; display: flex;
+                     justify-content: space-between;
+                      padding: 10px 20px;
+                     } .letterBody { padding: 30px;
+                     } .bigHeart { font-size: 4rem; } .tapText { margin-top: 10px;
+                         color: #ff2f7a; } /* LETTER OPEN */ .openLetter { background: #ffe6ef; padding: 40px 50px; border-radius: 20px; font-size: 1.4rem; color: #ff2f7a; box-shadow: 0 15px 30px rgba(0,0,0,0.4); max-width: 720px; line-height: 1.6; white-space: pre-wrap; position: relative; } /* 🫀 HEART AT TOP CENTER */ .topHeart { font-size: 2.8rem; text-align: center; margin-bottom: 20px; } /* YES / NO */ .choiceRow { margin-top: 30px; display: flex; gap: 30px; } .yesBtn, .noBtn { width: 140px; height: 55px; border-radius: 40px; border: none; font-size: 1.1rem; cursor: pointer; } .yesBtn { background: linear-gradient(135deg, #ff5f7e, #ff85a1); color: white; } .noBtn { background: #ffd6de; color: #ff4d6d; } /* ROSES */ .heart { position: absolute; top: 0; animation: bounce linear infinite; pointer-events: none; z-index: 1; } @keyframes bounce { 0% { transform: translateY(0); } 50% { transform: translateY(40px); } 100% { transform: translateY(0); } }
